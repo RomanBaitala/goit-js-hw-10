@@ -15,6 +15,48 @@ body {
 #search-box {
   font: inherit;
   padding: 8px;
+  margin-top: 10px;
+  margin-left: 20px;
   max-width: 320px;
   margin-bottom: 16px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+
+.country-list, .info-list{
+  list-style: none;
+}
+.country-list__item{
+  display: flex;
+}
+.country-list__img, .country-img{
+  margin-right: 10px;
+}
+.country-list__text, .country-name{
+  display: flex;
+  margin-bottom: 10px;
+  margin-top: 6px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.country-img{
+  margin-left: 20px;
+}
+
+.country-name{
+  font-size: 28px;
+  margin-top: 0;
+}
+.container{
+  display: flex;
+}
+
+.country-text{
+  font-size: 22px;
+  font-weight: bold;
+}
+.country-span{
+  font-weight: normal;
 }
