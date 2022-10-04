@@ -60,3 +60,7 @@ body {
 .country-span{
   font-weight: normal;
 }
+.title{
+  margin: 0 auto;
+  margin-left: 20px;
+}
